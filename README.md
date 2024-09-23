@@ -4,3 +4,6 @@
     </p>
 
 ![Favorite Food](https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg)
+
+
+<img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="200"/>
