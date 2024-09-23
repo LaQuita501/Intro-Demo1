@@ -10,12 +10,11 @@
 <div>
       <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg" alt="LaKenleigh and I" width="300/>
       
-<em> Lakenleigh and I </em> <div>
+
     
-<p>
-<div>
-    
+<p>    
 <h2>Favorites </h2>
+ 
  </p>    
 <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
   <div>
