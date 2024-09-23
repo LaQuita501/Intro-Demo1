@@ -12,5 +12,5 @@
    <figure>
   <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
   <figcaption>Favorite Food</figcaption>
-</figure>
+    </figure>
  <div>
