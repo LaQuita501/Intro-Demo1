@@ -5,11 +5,15 @@
     <div>
     <p>
     <p><small>There isn't much to say. My birthday is August 18, 1993. I graduated UCA in 2015 with my Bachelors in Education. I have a small family of my me, my husband, our daughter, and dog. I'm back in school trying to figure out life. With that being said, I've started taking on a multitude of hobbies but have yet mastered any. I enjoy going running the park, listening to music, and relaxing even though I feel like there's never time. </small></p>
-      <div>
-     <p> https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg
+    <div>
+      
+<div>
+     <p> <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg" alt="LaKenleigh and I" width="300/>
       <em> Lakenleigh and I </em>
       </p>
-      <div>
+      
+<div>
+
 <div>
     <h2>Favorites </h2>
      <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
