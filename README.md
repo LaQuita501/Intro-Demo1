@@ -26,9 +26,9 @@
   
   <p>
   <table>
-  <caption>
+  <h2>
     "I've Gotta Get Out More"
-  </caption>
+  </h2>
   <thead>
     <tr>
       <th scope="col">Places Visted</th>
