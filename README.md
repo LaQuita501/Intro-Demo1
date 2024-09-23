@@ -21,9 +21,10 @@
     J.Cole
   </blockquote>
 <div>
+  <p>
   <table>
   <caption>
-    I've Gotta Get Out More
+    "I've Gotta Get Out More"
   </caption>
   <thead>
     <tr>
@@ -60,4 +61,5 @@
     </tr>
   </tfoot>
 </table>
+<p>
 <div>
