@@ -10,10 +10,13 @@
 <div>
       <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg" alt="LaKenleigh and I" width="300/>
       
+
+
 <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/First%20Day%20of%20School%20w%20Dad.jpg" alt="LaKenleigh and I" width="300/>
       
 
     
+
 <p>    
 <h2>Favorites </h2>
  
