@@ -20,3 +20,44 @@
  <blockquote>
     J.Cole
   </blockquote>
+<div>
+  <table>
+  <caption>
+    I've Gotta Get Out More
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Places Visted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Texas</th>
+    </tr>
+    <tr>
+      <th scope="row">Oklahoma</th>
+    </tr>
+    <tr>
+      <th scope="row">Tennessee</th>
+    </tr>
+    <tr>
+      <th scope="row">Missouri</th>
+    </tr>
+    <tr>
+       <th scope="row">Nevada</th>
+    <tr>
+    <tr>
+      <th scope="row">Florida</th>
+    <tr>
+    <tr>
+      <th scope="row">Illinois</th>
+    <tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Total Places</th>
+      <td>7</td>
+    </tr>
+  </tfoot>
+</table>
+<div>
