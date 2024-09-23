@@ -17,7 +17,8 @@
   <div>
 
 <div>
- [![Favorite Artist](https://img.youtube.com/vi/hvcFQ2gv0cJOugbo/0.jpg)](https://www.youtube.com/watch?v=rk7AHso6imo)
+
+[![Favorite Artist](https://img.youtube.com/vi/hvcFQ2gv0cJOugbo/0.jpg)](https://www.youtube.com/watch?v=rk7AHso6imo)
  <blockquote>
     J.Cole
   </blockquote>
