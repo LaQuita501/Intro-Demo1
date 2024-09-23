@@ -16,6 +16,4 @@
 
 <div>
 
- [![Favorite Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)][def]
-
-[def]: https://youtu.be/ni1V2jnPKWY?si=L4eY0x3BUBcwsT4T
+ [![Favorite Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ni1V2jnPKWY?si=L4eY0x3BUBcwsT4T)
