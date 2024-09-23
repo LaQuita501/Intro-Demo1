@@ -16,7 +16,7 @@
 <div>
     
 <h2>Favorites </h2>
-     
+ </p>    
 <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
   <div>
 <em> Favorite food </em>
