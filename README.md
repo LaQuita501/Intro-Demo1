@@ -16,7 +16,7 @@
 
 <div>
 
- [![Favorite Songs](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ni1V2jnPKWY?si=L4eY0x3BUBcwsT4T)
+ [![Favorite Artist](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/rk7AHso6imo?si=w37sT9YVoTA1FinN)
  <blockquote>
-    She's Mine
+    J.Cole
   </blockquote>
