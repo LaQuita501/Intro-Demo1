@@ -9,16 +9,7 @@
      <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
   
 <em> Favorite food </em>
-   <figure>
-  <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
-  <figcaption>Favorite Food</figcaption>
-    </figure>
- <div>
-
- <figure>
-  <figcaption><b>Edsger Dijkstra:</b></figcaption>
   <blockquote>
-    If debugging is the process of removing software bugs, then programming must
-    be the process of putting them in.
+    Ramen
   </blockquote>
 </figure>
