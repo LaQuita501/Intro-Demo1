@@ -1,4 +1,4 @@
-<!doctype html>
+  
 <html lang="en">
 <h1> "About" LaQuita Hamilton <h1>
  <body>
