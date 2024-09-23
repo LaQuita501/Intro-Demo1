@@ -22,8 +22,10 @@
   </blockquote>
 <div>
   <p>
-  <h2> Travel! <h2>
   <table>
+  <caption>
+    "I've Gotta Get Out More"
+  </caption>
   <thead>
     <tr>
       <th scope="col">Places Visted</th>
