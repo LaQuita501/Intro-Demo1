@@ -8,12 +8,10 @@
     <div>
       
 <div>
-     <p> <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg" alt="LaKenleigh and I" width="300/>
+      <img src= "https://github.com/LaQuita501/Intro-Demo1/blob/main/Kenleigh%20and%20I.jpg" alt="LaKenleigh and I" width="300/>
       
-<em> Lakenleigh and I </em>
-      </p>
-      
-<div>
+<em> Lakenleigh and I </em> <div>
+    
 
 <div>
     <h2>Favorites </h2>
