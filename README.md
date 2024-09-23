@@ -14,3 +14,11 @@
   <figcaption>Favorite Food</figcaption>
     </figure>
  <div>
+
+ <figure>
+  <figcaption><b>Edsger Dijkstra:</b></figcaption>
+  <blockquote>
+    If debugging is the process of removing software bugs, then programming must
+    be the process of putting them in.
+  </blockquote>
+</figure>
