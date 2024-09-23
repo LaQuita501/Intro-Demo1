@@ -16,5 +16,4 @@
 
 <div>
      <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
-     
-[![Favorite Song](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/ni1V2jnPKWY?si=ZhKLRX6698rprIa8)
+
