@@ -8,6 +8,9 @@
     <h2>Favorites <h2>
      <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
   
-<em> Favorite Food </em>
-   
+<em> Favorite food </em>
+   <figure>
+  <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
+  <figcaption>Favorite Food</figcaption>
+</figure>
  <div>
