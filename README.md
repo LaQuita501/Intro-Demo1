@@ -7,6 +7,7 @@
 <div>
     <h2>Favorites <h2>
      <img src="https://japanalytic.com/wp-content/uploads/2016/07/ramen-2.jpg" alt="Ramen" width="300"/>
-     <wbr> <em> Favorite Food </em> <wbr />
+  
+<em> Favorite Food </em>
    
  <div>
