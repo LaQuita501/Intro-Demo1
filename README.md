@@ -15,6 +15,21 @@
     Ramen
   </blockquote>
   <div>
+  <img src="https://pickleballpulse.com/wp-content/uploads/2019/10/what-are-the-rules-of-pickleball.jpg" alt="Pickle Ball" width="300"/>
+  <div>
+<em> Favorite Activity </em>
+  <blockquote>
+    Pickle Ball
+  </blockquote>
+  <div>
+  <div>
+  <img src="https://www.rotoscopers.com/wp-content/uploads/2018/04/coraline-1500x938.jpg" alt="Coraline" width="300"/>
+  <div>
+<em> Favorite Movie </em>
+  <blockquote>
+    Coraline
+  </blockquote>
+  <div>
 
 <div>
 
