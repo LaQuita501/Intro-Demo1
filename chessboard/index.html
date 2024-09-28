@@ -6,14 +6,14 @@
     <title>Chessboard</title>
 <style>
     .container{
+        border: 25.0px solid black;
         width: 640px;
         height: 640px;
-        padding: 10px;
-        border: 10px solid blue;
-        margin: 0;
-        flex-wrap: wrap;
-        display: flex;
-    }
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+          }
     .white-cell{
         width: 80px;
         height: 80px;
@@ -28,17 +28,15 @@
     }
     
     .pieces{
-        width: 640px;
-        height: 640px;
-        padding: 10px;
-        border: 10px solid blue;
+        width: 30px;
+        height: 35px;
+        padding: 15px;
+        border: 5px solid blue;
         margin: 0;
         flex-wrap: wrap;
-        display: inline-flex;
-        
-    }
-        
-         
+        border-radius: 15%;
+         }
+              
        
         
 
@@ -49,16 +47,38 @@
         <h1>Chessboard</h1>
     </div>
     <div class="container">
+<div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+</div>
+<div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+</div>
+    <div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+        <div class="white-cell"></div>
+        <div class="black-cell"></div>
+    </div>
 
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-
+        <div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
@@ -67,7 +87,9 @@
         <div class="white-cell"></div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
-
+        
+                    </div>
+                    <div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
@@ -76,7 +98,8 @@
         <div class="black-cell"></div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
-
+                    </div>
+                    <div>      
         <div class="black-cell"></div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
@@ -85,7 +108,8 @@
         <div class="white-cell"></div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
-
+                    </div>
+      <div> 
         <div class="white-cell"></div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
@@ -94,7 +118,8 @@
         <div class="black-cell"></div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
-
+           </div> 
+    <div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
         <div class="black-cell"></div>
@@ -103,32 +128,13 @@
         <div class="white-cell"></div>
         <div class="black-cell"></div>
         <div class="white-cell"></div>
-
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-
+        </div>
 
 
 
 
     </div>
-    <div class="pieces">
-        <div class="rook"></div>
+    </div>
     </div>
 </body>
 </html>
