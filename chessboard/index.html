@@ -1,140 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chessboard</title>
-<style>
-    .container{
-        border: 25.0px solid black;
-        width: 640px;
-        height: 640px;
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  </head>
+  <body>
+    <style>
+      .container {
+        border: 25px solid black;
+        width: 90vw;
+        aspect-ratio: 1/1;
+        display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        
-          }
-    .white-cell{
-        width: 80px;
-        height: 80px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+      .white-cell {
         background-color: rgb(155, 95, 7);
-        
-    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
 
-    .black-cell{
-        width: 80px;
-        height: 80px;
+      .black-cell {
         background-color: black;
-    }
-    
-    .pieces{
-        width: 30px;
-        height: 35px;
-        padding: 15px;
+      }
+
+      .pieces {
+        width: 20px;
+        height: 20px;
+        padding: 0px;
         border: 5px solid blue;
         margin: 0;
         flex-wrap: wrap;
         border-radius: 15%;
-         }
-              
-       
-        
-
-</style>
-</head>
-<body>
+        background-color: purple;
+      }
+    </style>
     <div class="header">
-        <h1>Chessboard</h1>
+      <h1>Chessboard</h1>
     </div>
     <div class="container">
-<div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-</div>
-<div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-</div>
-    <div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
+      <div class="white-cell" style="grid-column: 1">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
     </div>
-
-        <div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        
-                    </div>
-                    <div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-                    </div>
-                    <div>      
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-                    </div>
-      <div> 
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-           </div> 
-    <div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        <div class="black-cell"></div>
-        <div class="white-cell"></div>
-        </div>
-
-
-
-
-    </div>
-    </div>
-    </div>
-</body>
+  </body>
 </html>
