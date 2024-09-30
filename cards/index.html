@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .card {
+        height: 250px;
+        aspect-ratio: 2/3;
+        border: solid;
+        border-radius: 25px;
+        background-color: white;
+        transition: all 100ms ease-in-out 50ms;
+        padding: .5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(7, 1fr);       
+        justify-content: left;
+      }
+      .card:hover {
+        transform: translateY(-50px);
+      }
+      .wrap {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+      }
+      .slot {
+        position: absolute;
+        height: 463px;
+        border: solid blue
+   
+       }
+       
+
+    </style>
+    <div class="wrap">
+      <div class="slot" style="transform: rotate(328deg)">
+        <div class="card">card c</div>
+      </div>
+
+      <div class="slot" style="transform: rotate(338deg)">
+        <div class="card">card f</div>
+      </div>
+
+      <div class="slot" style="transform: rotate(348deg)">
+        <div class="card">card b</div>
+      </div>
+
+      <div class="slot">
+        <div class="card">card a</div>
+      </div>
+     
+      <div class="slot" style="transform: rotate(12deg)">
+        <div class="card">card d</div>
+      </div>
+     
+      <div class="slot" style="transform: rotate(25deg)">
+        <div class="card">card e</div>
+      </div>
+
+      <div class="slot" style="transform: rotate(38deg)">
+        <div class="card">card g</div>
+      </div>
+
+      <div class="slot" style="transform: rotate(55deg)">
+        <div class="card">
+        <div class="cornernumbertop"><p>2</p></div>
+        <div class="pip">♥</div>
+        <div class="pip">♥</div>
+        <div class="cornernumberbottom"><p>2</p></div>
+            </div>
+        
+      </div>
+     
+      </div>
+    </div>
+  </body>
+</html>
