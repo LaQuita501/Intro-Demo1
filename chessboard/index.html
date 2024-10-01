@@ -14,9 +14,10 @@
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        -ms-grid-column-align: center;
       }
       .white-cell {
-        background-color: rgb(155, 95, 7);
+        background-color: rgb(33, 18, 168);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -24,18 +25,33 @@
       }
 
       .black-cell {
-        background-color: black;
+        background-color: rgba(28, 164, 218, 0.836);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
       }
 
       .pieces {
-        width: 20px;
-        height: 20px;
+        width: 70px;
+        height: 70px;
         padding: 0px;
-        border: 5px solid blue;
+        border: 5px solid rgb(255, 255, 255);
         margin: 0;
         flex-wrap: wrap;
         border-radius: 15%;
-        background-color: purple;
+        background-color: rgb(19, 18, 18);
+      }
+
+      .awaypieces {
+        width: 70px;
+        height: 70px;
+        padding: 0px;
+        border: 5px solid rgb(2, 2, 10);
+        margin: 0;
+        flex-wrap: wrap;
+        border-radius: 15%;
+        background-color: rgb(248, 243, 243);
       }
     </style>
     <div class="header">
@@ -45,58 +61,52 @@
       <div class="white-cell" style="grid-column: 1">
         <div class="pieces"></div>
       </div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
+      <div class="black-cell" style="grid-column: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 3">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 4">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 5">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 6">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 7">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 8">
+        <div class="pieces"></div>
+      </div>
 
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
-      <div class="black-cell"></div>
-      <div class="white-cell"></div>
+      <div class="black-cell" style="grid-column: 1" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 2" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 3" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 4" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 5" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 6" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 7" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 8" style="grid-row: 2">
+        <div class="pieces"></div>
+      </div>
 
       <div class="white-cell"></div>
       <div class="black-cell"></div>
@@ -115,6 +125,74 @@
       <div class="white-cell"></div>
       <div class="black-cell"></div>
       <div class="white-cell"></div>
+
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+      <div class="black-cell"></div>
+      <div class="white-cell"></div>
+
+      <div class="white-cell" style="grid-column: 1" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 2" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 3" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 4" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 5" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 6" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 7" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 8" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+
+      <div class="black-cell" style="grid-column: 1" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 2" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 3" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 4" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 5" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 6" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="black-cell" style="grid-column: 7" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
+      <div class="white-cell" style="grid-column: 8" style="grid-row: 7">
+        <div class="awaypieces"></div>
+      </div>
     </div>
   </body>
 </html>
