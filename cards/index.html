@@ -7,21 +7,25 @@
   </head>
   <body>
     <style>
+      :root {
+        --outlines: 1px;
+      }
       .card {
         height: 250px;
         aspect-ratio: 2/3;
         border: solid;
         border-radius: 25px;
         background-color: white;
-        transition: all 100ms ease-in-out 50ms;
-        padding: .5em;
+        transition: all 3s ease-out 50ms;
+        padding: 0.5em;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-columns: repeat(7, 1fr);       
+        grid-template-columns: repeat(7, 1fr);
         justify-content: left;
       }
       .card:hover {
-        transform: translateY(-50px);
+        transform: translateY(-300px);
+      
       }
       .wrap {
         height: 500px;
@@ -38,11 +42,10 @@
       .slot {
         position: absolute;
         height: 463px;
-        border: solid blue
-   
-       }
-       
-
+        border: solid var(--outlines) red
+      }
+      
+    
     </style>
     <div class="wrap">
       <div class="slot" style="transform: rotate(328deg)">
@@ -60,11 +63,11 @@
       <div class="slot">
         <div class="card">card a</div>
       </div>
-     
+
       <div class="slot" style="transform: rotate(12deg)">
         <div class="card">card d</div>
       </div>
-     
+
       <div class="slot" style="transform: rotate(25deg)">
         <div class="card">card e</div>
       </div>
@@ -75,14 +78,11 @@
 
       <div class="slot" style="transform: rotate(55deg)">
         <div class="card">
-        <div class="cornernumbertop"><p>2</p></div>
-        <div class="pip">♥</div>
-        <div class="pip">♥</div>
-        <div class="cornernumberbottom"><p>2</p></div>
-            </div>
-        
-      </div>
-     
+          <div class="cornernumbertop"><p>2</p></div>
+          <div class="pip">♥</div>
+          <div class="pip">♥</div>
+          <div class="cornernumberbottom"><p>2</p></div>
+        </div>
       </div>
     </div>
   </body>
